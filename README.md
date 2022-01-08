@@ -19,7 +19,7 @@ For example:
 
 As in the paper, we will have 184 GB simulation data. If you want to generate the corriponding simulation dataset, you could get it useing the pipeline here. Also I just upload one example for each of the Sh and USh type dataset to the following link:
 
-Link: 
+Link: https://doi.org/10.6084/m9.figshare.18092846
 
 
 # 2. Preprocessing
