@@ -76,7 +76,11 @@ conda install -c anaconda seaborn
 # 4. Contact Information
 
 Please do not hesitate to reach out to me if you have questions.
+
 Saidi Wang (tjwangsaidi@knights.ucf.edu)
+
 Minerva Fatimae Ventolero (mventolero@knights.ucf.edu)
+
 Haiyan Nancy Hu (haihu@cs.ucf.edu)
+
 Xiaoman Shawn Li (xiaoman@mail.ucf.edu)
