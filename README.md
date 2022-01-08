@@ -1,4 +1,4 @@
-# Analysising_Bacterial_Strains
+# Analysing_Bacterial_Strains
 
 The pipeline code here are used in the paper 'Computational analyses of baterial strains from shotgen reads' by Minerva Fatimae Ventolero and Saidi Wang from UCF.
 
@@ -16,6 +16,10 @@ You need to install python (recommend: python 2.7.x-64bit), which is already ins
 For example:
 
 '/dwgsim/simulated_data_with_evolutionary_relationship/data/original_genome/' ------> 'Your own path/original_genome/'
+
+As in the paper, we will have 184 GB simulation data. If you want to generate the corriponding simulation dataset, you could get it useing the pipeline here. Also I just upload one example for each of the Sh and USh type dataset to the following link:
+
+Link: 
 
 
 # 2. Preprocessing
