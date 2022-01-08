@@ -17,7 +17,7 @@ For example:
 
 '/dwgsim/simulated_data_with_evolutionary_relationship/data/original_genome/' ------> 'Your own path/original_genome/'
 
-As in the paper, we will have 184 GB simulation data. If you want to generate the corriponding simulation dataset, you could get it useing the pipeline here. Also I just upload one example for each of the Sh and USh type dataset to the following link:
+As in the paper, we will have 184 GB of simulation data. If you want to generate the corresponding simulation dataset, you could get it useing the pipeline here. Also I just upload one example for each of the Sh and USh type dataset to the following link:
 
 Link: https://doi.org/10.6084/m9.figshare.18092846
 
