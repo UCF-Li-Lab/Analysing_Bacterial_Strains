@@ -47,10 +47,15 @@ Conda install samtools=1.9 or https://anaconda.org/bioconda/samtools
 python preprocessing.py --sample_name test --pair1 ./example_test_data/test.read1.fastq --pair2 ./example_test_data/test.read2.fastq --process 6 --genome_name ./genomic.fna --res_dir ./test_res_data
 
 --sample_name: sample name
+
 --pair1: forward read for FastQ
+
 --pair2: reverse read for FastQ
+
 --process: # of processor to run
+
 --genome_name: reference genome
+
 --res_dir : result directory
 
 # 3. Figures in paper
