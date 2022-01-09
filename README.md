@@ -1,4 +1,4 @@
-# Analysing_Bacterial_Strains
+# StrainToolSurvey
 
 The pipeline code here are used in the paper 'Computational analyses of baterial strains from shotgen reads' by Minerva Fatimae Ventolero and Saidi Wang from UCF.
 
