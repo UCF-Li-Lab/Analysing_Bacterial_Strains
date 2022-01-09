@@ -1,13 +1,13 @@
 # StrainToolSurvey
 
-The pipeline code here are used in the paper 'Computational analyses of baterial strains from shotgen reads' by Minerva Fatimae Ventolero and Saidi Wang from UCF.
+The pipeline codes here are used in the paper 'Computational analyses of baterial strains from shotgun reads' by Minerva Fatimae Ventolero and Saidi Wang from UCF.
 
 # 1. Simulation data
 
 (1) First of all, you need to install the simulation tool----dwgsim
 Link:  https://github.com/nh13/DWGSIM
 
-(2) The code is run in the python2.7 (You could update the code to use the python3.6,we use the python 2.7 code here to make it consistent with the paper)
+(2) The code is run in the python2.7 (You could update the code to use python3.6 but we use python 2.7 code here to make it consistent with the paper)
 
 You need to install python (recommend: python 2.7.x-64bit), which is already installed by default for most of current Linux systems. If there is no python 2.7 installed, you can download and install python from (http://www.python.org/download/). You can use "python -V" command to check whether python is installed and the version of Python.
 
@@ -30,13 +30,19 @@ If you only have FastQ format data, you can get a hint from our common preproces
 
 (A) First, you need to install python (recommend: python 3.6-64bit), which is already installed by default for most of current Linux systems. If there is no python 3.6 installed, you can download and install python from (http://www.python.org/download/). You can use "python -V" command to check whether python is installed and the version of Python.
 
-(B) Bowtie2 2.3 or newer (optional if you are only using our preprocessing script)
+(B) Install Conda:
+
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+
+(C) Bowtie2 2.3 or newer (optional if you are only using our preprocessing script)
+
 Conda install bowtie2
 
-(C) Samtools 1.9 (optional if you are using our preprocessing script)
+(D) Samtools 1.9 (optional if you are using our preprocessing script)
+
 Conda install samtools=1.9 or https://anaconda.org/bioconda/samtools
 
-(3) Sample command:
+(2) Sample command:
 
 python preprocessing.py --sample_name test --pair1 ./example_test_data/test.read1.fastq --pair2 ./example_test_data/test.read2.fastq --process 6 --genome_name ./genomic.fna --res_dir ./test_res_data
 
@@ -49,7 +55,7 @@ python preprocessing.py --sample_name test --pair1 ./example_test_data/test.read
 
 # 3. Figures in paper
 
-(1) Tools used
+Tools used
 
 (1) python=3.6 If there is no python 3.6 installed, you can download and install python from (http://www.python.org/download/). You can use "python -V" command to check whether python is installed and the version of Python.
 
