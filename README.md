@@ -84,7 +84,36 @@ conda install -c anaconda pandas
 
 conda install -c anaconda seaborn
 
-# 4. Contact Information
+# 4. Benchmark tools code.
+
+We just put the command to run each of the six tools in the paper in different python file. ANd you could check them and run them after you installed the six tools
+
+(1) BHap running code
+
+/benchmark_tools_code/1-BHap_code.py
+
+(2) EVORhA running code
+
+/benchmark_tools_code/2-EVORhA_code.py
+
+(3) MetaSNV running code
+
+/benchmark_tools_code/3-MetaSNV_code.py
+
+(4) mixtureS running code
+
+/benchmark_tools_code/4-mixtureS_code.py
+
+(5) strainFinder running code
+
+/benchmark_tools_code/5-strainFinder_code.py
+
+(6) StrainPhIAn running code
+
+/benchmark_tools_code/6-StrainPhlAn_code.py
+
+
+# 5. Contact Information
 
 Please do not hesitate to reach out to me if you have questions.
 
